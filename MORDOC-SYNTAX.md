@@ -261,6 +261,66 @@ When `topnav.yaml` exists there is **no** `sidenav.yaml` — labels live in `top
 
 Each navigation entry has a `label` (display text), `path` (route), and may have `variant` or `expanded` flags.
 
+An entry can instead use `operation: <operationId>` to link a generated API page (see API Reference, below). `label` is then optional and falls back to the operation's `summary`. An entry must not combine `operation` and `path`.
+
+## API Reference
+
+Mordoc generates one page per operation from OpenAPI specs. The spec is the source of truth; enrichment files only patch text or add things OpenAPI cannot express (badges, callouts).
+
+**Project layout:**
+
+```text
+config/api.yaml                          registers specs
+api/specs/<file>.yaml                    OpenAPI files, never hand-edited
+api/enrichment/<id>/operations/<operationId>.md
+api/enrichment/<id>/schemas/<SchemaName>.md
+api/examples/<id>/<operationId>/request.<case>.json
+api/examples/<id>/<operationId>/response.<status>[-suffix].json
+```
+
+**`config/api.yaml`:** a list of `id` (required, letters/digits/hyphens/underscores), `spec` (required, file in `api/specs/`), and optional `routePrefix` (default `/api/<id>`; `/` mounts at the site root). To use `strict: true` (every warning fails the build), move the list under `specs:`.
+
+```yaml
+- id: rings
+  spec: rings.yaml
+```
+
+**Sidenav entry:**
+
+```yaml
+- label: Forge
+  operation: forgeRing
+```
+
+### Params (enrichment files only)
+
+`params` wraps field entries in an enrichment file. Do not use it in ordinary guide pages. Each `###` heading names a field; the text under it is the note.
+
+```markdown
+{% params %}
+### smith_id
+Must belong to a registered smith.
+{% /params %}
+
+{% params in="response" status="403" %}
+### message
+Explains which rule was broken.
+{% /params %}
+```
+
+**Attributes:** `in` (`request` default, or `response`), `status` (text; required when `in="response"`), `mode` (`append` default, or `replace`). Use a dotted path for nested fields in operation files (`quest.destination`). In `schemas/` files the `params` wrapper is optional. Text outside `params` in an operation file replaces the operation's description.
+
+### Badges
+
+A badge is an annotation on a `###` heading in an enrichment file. One per entry; the value must be quoted text.
+
+```markdown
+### dark_lord_approval {% badge="conditional" %}
+### corruption_level {% badge="Read-only" %}
+```
+
+`conditional` is reserved (the field needs an explanation in its description, or the build warns). Any other text is a free badge, shown verbatim in one style.
+
 ## Footer
 
 `config/navigation/footer.yaml` is optional. When absent, Mordoc renders its own built-in default footer (a single "Powered by Mordoc" attribution line). When present, it replaces that default with up to three named columns, each an ordered list of lines:
