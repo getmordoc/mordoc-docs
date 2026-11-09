@@ -63,6 +63,24 @@
     - label: Sequence Diagrams
       path: /creating-diagrams/sequence-diagrams
 
+- label: API Reference
+  expanded: true
+  children:
+    - label: Overview
+      path: /api-reference/overview
+    - label: Prepare Your Spec
+      path: /api-reference/prepare-your-spec
+    - label: Set Up an API Reference
+      path: /api-reference/set-up
+    - label: Link Operations in Navigation
+      path: /api-reference/link-operations-in-navigation
+    - label: Enrich Descriptions
+      path: /api-reference/enrich-descriptions
+    - label: Badges
+      path: /api-reference/badges
+    - label: Warnings and Errors
+      path: /api-reference/warnings-and-errors
+
 - label: Configuration
   expanded: true
   children:
@@ -76,6 +94,8 @@
       path: /configuration/header-links
     - label: Footer
       path: /configuration/footer
+    - label: API Registry
+      path: /configuration/api-registry
     - label: Languages
       path: /configuration/languages
     - label: Navigation Translations
