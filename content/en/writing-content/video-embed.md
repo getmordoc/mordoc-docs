@@ -9,7 +9,7 @@ Mordoc supports native video embed player for Youtube, Vimeo and Loom.
 
 ## Add a video embed
 
-```markdown
+```markdown {% process=false %}
 {% videoEmbed 
   src="https://www.youtube.com/watch?v=AF8d72mA41M" 
   title="Why it was almost impossible to make the blue LED" 
@@ -28,7 +28,7 @@ Mordoc supports native video embed player for Youtube, Vimeo and Loom.
 
 If `src` isn't one of the providers above, Mordoc doesn't try to render a broken embed. It shows a link-out card instead, using `thumbnail` if you set one:
 
-```markdown
+```markdown {% process=false %}
 {% videoEmbed src="https://example.com/watch/123" thumbnail="/images/demo-thumb.jpg" title="Demo video" /%}
 ```
 

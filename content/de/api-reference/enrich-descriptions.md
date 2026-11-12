@@ -38,7 +38,7 @@ Diese Dateien haben kein Frontmatter. Schreiben Sie das Markdown direkt.
 
 Setzen Sie Feldanmerkungen in einen `{% params %}`-Block. Jede `###`-Überschrift benennt ein Feld, und der Text darunter ist die Anmerkung:
 
-```markdown
+```markdown {% process=false %}
 {% params %}
 ### smith_id
 Must belong to a smith registered with the guild of the requested `kind`.
@@ -51,7 +51,7 @@ Die Überschrift muss dem Feldnamen in der Spezifikation entsprechen.
 
 Ein einfacher `{% params %}`-Block beschreibt die Parameter und den Request-Body der Operation. Um eine Antwort zu beschreiben, nennen Sie den Statuscode:
 
-```markdown
+```markdown {% process=false %}
 {% params in="response" status="403" %}
 ### message
 Explains which guild rule was broken.
@@ -64,7 +64,7 @@ Der `status` ist erforderlich. Er muss eine Antwort sein, die die Operation dekl
 
 Verwenden Sie in einer Operationsdatei einen Punkt-Pfad für ein verschachteltes Feld:
 
-```markdown
+```markdown {% process=false %}
 {% params %}
 ### quest.destination
 The place the fellowship must reach, for example `Mount Doom`.
@@ -97,7 +97,7 @@ Um die richtige Schemadatei zu finden, sehen Sie sich das Feld auf der erzeugten
 
 Verwenden Sie den Text auf Operationsebene für Einführungen, Callouts und Links. Dieser Text erscheint zum Beispiel am Anfang der Seite Forge a ring:
 
-```markdown
+```markdown {% process=false %}
 Forges a new ring of the requested kind and metal.
 
 {% callout type="warning" title="Handle with care" %}

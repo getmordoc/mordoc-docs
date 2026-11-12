@@ -11,7 +11,7 @@ OpenAPI has no way to express a conditional field or a custom label, so badges l
 
 Write the badge in the field's `###` heading inside an enrichment file:
 
-```markdown
+```markdown {% process=false %}
 {% params %}
 ### dark_lord_approval {% badge="conditional" %}
 Required only when `kind` is `one`.
@@ -27,7 +27,7 @@ Rules:
 
 `conditional` is a reserved word for a field that applies only in some situations:
 
-```markdown
+```markdown {% process=false %}
 ### dark_lord_approval {% badge="conditional" %}
 Required only when `kind` is `one`.
 ```
@@ -42,7 +42,7 @@ On [Forge a ring](https://www.api-demo.mordoc.dev/api/rings/forge-ring), the `da
 
 Any other text becomes a badge exactly as you write it:
 
-```markdown
+```markdown {% process=false %}
 ### corruption_level {% badge="Read-only" %}
 A value from 0 to 100 that grows each day a ring is worn.
 ```

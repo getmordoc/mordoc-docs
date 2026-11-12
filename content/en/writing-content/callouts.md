@@ -11,7 +11,7 @@ Use them when a reader should pause, notice something, or be careful before cont
 
 A callout starts with `{% callout %}` and ends with `{% /callout %}`.
 
-```markdown
+```markdown {% process=false %}
 {% callout type="note" title="Good to know" %}
 The Fellowship of the Ring set out from Rivendell with nine companions.
 {% /callout %}
@@ -36,7 +36,7 @@ The `title` value is also optional. Add one when it helps readers understand the
 
 Use `note` for helpful information that supports the main text.
 
-```markdown
+```markdown {% process=false %}
 {% callout type="note" title="Good to know" %}
 The Shire lies west of Bree, across the Brandywine River.
 {% /callout %}
@@ -52,7 +52,7 @@ The Shire lies west of Bree, across the Brandywine River.
 
 Use `tip` for advice that makes a task easier.
 
-```markdown
+```markdown {% process=false %}
 {% callout type="tip" title="Speak, friend, and enter" %}
 When at the gates of Moria, say "Mellon."
 {% /callout %}
@@ -68,7 +68,7 @@ When at the gates of Moria, say "Mellon."
 
 Use `warning` when readers should slow down or check something before continuing.
 
-```markdown
+```markdown {% process=false %}
 {% callout type="warning" title="Mind the water" %}
 Do not linger by the lake outside the Doors of Durin. Something stirs beneath its surface.
 {% /callout %}
@@ -84,7 +84,7 @@ Do not linger by the lake outside the Doors of Durin. Something stirs beneath it
 
 Use `danger` only for serious situations.
 
-```markdown
+```markdown {% process=false %}
 {% callout type="danger" title="Never put on the Ring" %}
 Do not put on the One Ring. The moment you wear it, you draw the Eye of Sauron towards you.
 {% /callout %}

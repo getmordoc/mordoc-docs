@@ -9,7 +9,7 @@ A GIF autoplays with no way to pause it, which is both distracting and an access
 
 ## Add a clip
 
-```markdown
+```markdown {% process=false %}
 {% clip 
   src="/clips/animated-dinosaur.mp4" 
   title="Animated Dinosaur" 

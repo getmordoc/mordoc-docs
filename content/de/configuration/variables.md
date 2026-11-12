@@ -37,7 +37,7 @@ Verwenden Sie Anführungszeichen, wenn ein Wert als Text behandelt werden soll, 
 
 Sobald eine Variable definiert ist, können Sie sie in Markdown-Inhalten verwenden:
 
-```markdown
+```markdown {% process=false %}
 Willkommen bei {% $productName %}.
 ```
 
@@ -67,7 +67,7 @@ supportEmail: support@example.com
 
 Verwenden Sie es dann überall, wo Leser die Support-Adresse benötigen:
 
-```markdown
+```markdown {% process=false %}
 Senden Sie eine E-Mail an {% $supportEmail %}, wenn Sie Hilfe benötigen.
 ```
 
@@ -85,11 +85,11 @@ Dies zeigt den literalen Text `$SUPPORT_PORTAL_URL` als Adresse an, nicht den We
 
 Verwenden Sie für einen Link oder ein Bild, das eine Variable benötigt, stattdessen den `link`- oder `image`-Tag:
 
-```markdown
+```markdown {% process=false %}
 {% link path=$SUPPORT_PORTAL_URL %}Support kontaktieren{% /link %}
 ```
 
-```markdown
+```markdown {% process=false %}
 {% image src=$IMAGE_LINK alt="Grafik" /%}
 ```
 

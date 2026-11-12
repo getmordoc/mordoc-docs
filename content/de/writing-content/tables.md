@@ -13,7 +13,7 @@ Eine Mordoc-Tabelle beginnt mit `{% table %}` und endet mit `{% /table %}`.
 
 Verwenden Sie `*` für jede Zelle. Verwenden Sie `---`, um Kopfzeile und Zeilen zu trennen.
 
-```markdown
+```markdown {% process=false %}
 {% table %}
 * Kopfzeile 1
 * Kopfzeile 2
@@ -53,7 +53,7 @@ Jede Zeile sollte dieselbe Anzahl von Zellen wie die Kopfzeile haben.
 
 Sie können weitere Spalten hinzufügen, indem Sie mehr Kopfzeilenzellen und entsprechende Zeilenzellen hinzufügen:
 
-```markdown
+```markdown {% process=false %}
 {% table %}
 * Kopfzeile 1
 * Kopfzeile 2
@@ -87,7 +87,7 @@ Tabellenzellen können mehr als nur einfachen Text enthalten.
 
 Eine Zelle kann zum Beispiel formatierten Text, Listen, Blockzitate, Code-Blöcke, Callouts und Bilder enthalten.
 
-````markdown
+````markdown {% process=false %}
 {% table %}
 * Inhaltstyp
 * Beispiel

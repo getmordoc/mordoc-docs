@@ -13,7 +13,7 @@ Use cards when a reader needs to choose where to go next. For example, a homepag
 
 Start with a `cardGrid`:
 
-```markdown
+```markdown {% process=false %}
 {% cardGrid cols="3" %}
 {% /cardGrid %}
 ```
@@ -38,7 +38,7 @@ The `cols` value controls how many columns the grid tries to show on wide screen
 
 Each card needs a `title`:
 
-```markdown
+```markdown {% process=false %}
 {% cardGrid cols="2" %}
 {% card title="Install" path="/guides/install" %}
 Install the product and check that it runs.
@@ -64,7 +64,7 @@ Mordoc supports a few card styles:
 
 Use a plain card when the title and a short sentence are enough to help the reader decide.
 
-```markdown
+```markdown {% process=false %}
 {% cardGrid cols="2" %}
 {% card title="Build and Deploy" path="/publishing/build-your-site" %}
 Generate a static site and deploy it to any hosting platform in minutes.
@@ -90,7 +90,7 @@ See exactly how your site looks before it goes live — no surprises.
 
 Use `tag` for short labels like `New`, `Start here`, or `Recommended`. Use tags sparingly. If every card has a tag, the tags stop feeling helpful.
 
-```markdown
+```markdown {% process=false %}
 {% cardGrid cols="2" %}
 {% card title="Quickstart" path="/getting-started/create-project" tag="Start here" %}
 Begin with the fastest path through the docs.
@@ -116,7 +116,7 @@ Highlight notes, tips, warnings, and important messages in Mordoc pages.
 
 Add `icon` to show a small icon next to the title. `icon` renders in a small square box without cropping, so a square icon, ideally an SVG, fits best.
 
-```markdown
+```markdown {% process=false %}
 {% cardGrid cols="3" %}
 {% card title="Getting Started" path="/getting-started/create-project" icon="/icons/card-icons/getting-started.svg" %}
 Create your first project, run it locally, and learn how Mordoc works from the ground up.
@@ -148,7 +148,7 @@ Tailor your site with navigation, branding, themes, variables, and multi-languag
 
 Add `image` to show a larger image above the title.
 
-```markdown
+```markdown {% process=false %}
 {% cardGrid cols="3" %}
 {% card title="Český Krumlov" image="/images/content-images/cesky-krumlov.jpg" %}
 A fairy-tale town in South Bohemia, wrapped by a bend in the Vltava.

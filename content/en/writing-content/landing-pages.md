@@ -39,7 +39,7 @@ A hero is a large opening section, usually used at the top of a landing page.
 
 You can add a hero section to your landing page using the `{% hero %}` tag.
 
-```markdown
+```markdown {% process=false %}
 {% hero
   title="My Product Docs"
   titleAccent="made simple"
@@ -108,7 +108,7 @@ A section groups content on a landing page, with an optional title and backgroun
 
 You can add a section to your landing page using the `{% section %}` tag.
 
-```markdown
+```markdown {% process=false %}
 {% section title="Choose where to begin" background="/images/section-bg.png" %}
 This section introduces the main paths through the documentation.
 {% /section %}
@@ -143,7 +143,7 @@ When a section has a `background` image, its title and text automatically switch
 
 Landing pages often use cards inside a section to guide readers toward where to go next:
 
-```markdown
+```markdown {% process=false %}
 {% section title="Explore the docs" %}
 {% cardGrid cols="3" %}
 {% card title="Getting Started" path="/getting-started/create-project" tag="Start here" %}
@@ -161,7 +161,7 @@ A button is a styled call to action, usually linking to another page.
 
 You can add a button using the `{% button %}` tag.
 
-```markdown
+```markdown {% process=false %}
 {% button path="/getting-started/create-project" %}
 Create a project
 {% /button %}
@@ -169,7 +169,7 @@ Create a project
 
 Use `variant="secondary"` for a quieter button:
 
-```markdown
+```markdown {% process=false %}
 {% button path="/writing-content/markdown-basics" variant="secondary" %}
 Learn Markdown
 {% /button %}

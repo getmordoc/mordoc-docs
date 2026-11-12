@@ -11,7 +11,7 @@ Verwenden Sie sie, um zwei kurze Inhalte zu vergleichen, oder um einen Demo-Clip
 
 Fassen Sie zwei oder mehr `column`-Tags in `columns` zusammen:
 
-```markdown
+```markdown {% process=false %}
 {% columns %}
 {% column %}
 {% image src="/images/content-images/cesky-krumlov.jpg" alt="Cesky Krumlov" /%}
@@ -51,7 +51,7 @@ Die Anzahl der Spalten richtet sich danach, wie viele `column`-Tags Sie verschac
 
 Setzen Sie `divider=true` auf `columns`, um eine vertikale Trennlinie zwischen den Spalten zu ziehen:
 
-```markdown
+```markdown {% process=false %}
 {% columns divider=true %}
 {% column %}
 {% image src="/images/content-images/iceland.jpg" alt="Iceland" /%}
