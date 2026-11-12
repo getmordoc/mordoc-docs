@@ -38,7 +38,7 @@ These files have no frontmatter. Write the Markdown directly.
 
 Put field notes in a `{% params %}` block. Each `###` heading names one field, and the text under it is the note:
 
-```markdown
+```markdown {% process=false %}
 {% params %}
 ### smith_id
 Must belong to a smith registered with the guild of the requested `kind`.
@@ -51,7 +51,7 @@ The heading must match the field name in the spec.
 
 A plain `{% params %}` block describes the operation's parameters and request body. To describe a response, name the status code:
 
-```markdown
+```markdown {% process=false %}
 {% params in="response" status="403" %}
 ### message
 Explains which guild rule was broken.
@@ -64,7 +64,7 @@ The `status` is required. It must be a response the operation declares.
 
 In an operation file, use a dotted path for a nested field:
 
-```markdown
+```markdown {% process=false %}
 {% params %}
 ### quest.destination
 The place the fellowship must reach, for example `Mount Doom`.
@@ -97,7 +97,7 @@ To find the right schema file, look at the field on the generated page. It shows
 
 Use the operation-level text for introductions, callouts, and links. For example, this text appears at the top of the Forge a ring page:
 
-```markdown
+```markdown {% process=false %}
 Forges a new ring of the requested kind and metal.
 
 {% callout type="warning" title="Handle with care" %}

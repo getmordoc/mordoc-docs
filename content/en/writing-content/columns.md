@@ -11,7 +11,7 @@ Use them to compare two short pieces of content, or to put a demo clip next to t
 
 Wrap two or more `column` tags in `columns`:
 
-```markdown
+```markdown {% process=false %}
 {% columns %}
 {% column %}
 {% image src="/images/content-images/cesky-krumlov.jpg" alt="Cesky Krumlov" /%}
@@ -51,7 +51,7 @@ Column count follows however many `column` tags you nest.
 
 Set `divider=true` on `columns` to draw a vertical rule between columns:
 
-```markdown
+```markdown {% process=false %}
 {% columns divider=true %}
 {% column %}
 {% image src="/images/content-images/iceland.jpg" alt="Iceland" /%}

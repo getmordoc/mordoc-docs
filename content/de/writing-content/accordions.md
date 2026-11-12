@@ -9,7 +9,7 @@ Verwenden Sie Accordions für Inhalte, die nützlich, aber nicht für jeden Lese
 
 ## Ein Accordion hinzufügen
 
-```markdown
+```markdown {% process=false %}
 {% accordion title="Who is the Ring-bearer?" %}
 Frodo Baggins carries the One Ring from the Shire to Mount Doom, though Sam never leaves his side.
 {% /accordion %}
@@ -27,7 +27,7 @@ Ein Accordion akzeptiert den gleichen Inhalt wie ein normaler Seiten-Body, also 
 
 Fügen Sie `defaultOpen=true` hinzu, wenn der Inhalt beim Laden der Seite bereits sichtbar sein soll, statt einen Klick zu erfordern:
 
-```markdown
+```markdown {% process=false %}
 {% accordion title="The Fellowship" defaultOpen=true %}
 Frodo, Sam, Merry, Pippin, Gandalf, Aragorn, Legolas, Gimli, and Boromir.
 {% /accordion %}
@@ -43,7 +43,7 @@ Frodo, Sam, Merry, Pippin, Gandalf, Aragorn, Legolas, Gimli und Boromir.
 
 Fassen Sie mehrere Accordions in `accordions` zusammen, um sie zu einem visuell verbundenen Block zu gruppieren:
 
-```markdown
+```markdown {% process=false %}
 {% accordions %}
 {% accordion title="What is the One Ring?" %}
 Sauron forged it in the fires of Mount Doom, binding it to his own power so that whoever holds it can command the other Rings of Power.

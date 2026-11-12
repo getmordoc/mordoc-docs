@@ -11,7 +11,7 @@ Verwenden Sie sie, wenn ein Leser innehalten, etwas bemerken oder vorsichtig sei
 
 Ein Callout beginnt mit `{% callout %}` und endet mit `{% /callout %}`.
 
-```markdown
+```markdown {% process=false %}
 {% callout type="note" title="Gut zu wissen" %}
 Die Gemeinschaft des Rings brach mit neun Gefährten von Bruchtal auf.
 {% /callout %}
@@ -36,7 +36,7 @@ Der `title`-Wert ist ebenfalls optional. Fügen Sie ihn hinzu, wenn er Lesern hi
 
 Verwenden Sie `note` für hilfreiche Informationen, die den Haupttext unterstützen.
 
-```markdown
+```markdown {% process=false %}
 {% callout type="note" title="Gut zu wissen" %}
 Das Auenland liegt westlich von Bree, jenseits des Flusses Brandywein.
 {% /callout %}
@@ -52,7 +52,7 @@ Das Auenland liegt westlich von Bree, jenseits des Flusses Brandywein.
 
 Verwenden Sie `tip` für Ratschläge, die eine Aufgabe einfacher machen.
 
-```markdown
+```markdown {% process=false %}
 {% callout type="tip" title="Sprich, Freund, und tritt ein" %}
 Sagen Sie an den Toren von Moria „Mellon".
 {% /callout %}
@@ -68,7 +68,7 @@ Sagen Sie an den Toren von Moria „Mellon".
 
 Verwenden Sie `warning`, wenn Leser etwas verlangsamen oder überprüfen sollten, bevor sie fortfahren.
 
-```markdown
+```markdown {% process=false %}
 {% callout type="warning" title="Vorsicht vor dem Wasser" %}
 Verweilen Sie nicht am See vor den Toren von Durin. Etwas regt sich unter seiner Oberfläche.
 {% /callout %}
@@ -84,7 +84,7 @@ Verweilen Sie nicht am See vor den Toren von Durin. Etwas regt sich unter seiner
 
 Verwenden Sie `danger` nur für ernste Situationen.
 
-```markdown
+```markdown {% process=false %}
 {% callout type="danger" title="Den Ring niemals aufsetzen" %}
 Setzen Sie niemals den Einen Ring auf. In dem Moment, in dem Sie ihn tragen, ziehen Sie das Auge Saurons auf sich.
 {% /callout %}

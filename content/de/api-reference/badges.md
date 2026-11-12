@@ -11,7 +11,7 @@ OpenAPI kann weder ein bedingtes Feld noch ein eigenes Label ausdrücken, daher 
 
 Schreiben Sie das Badge in die `###`-Überschrift des Feldes in einer Enrichment-Datei:
 
-```markdown
+```markdown {% process=false %}
 {% params %}
 ### dark_lord_approval {% badge="conditional" %}
 Required only when `kind` is `one`.
@@ -27,7 +27,7 @@ Regeln:
 
 `conditional` ist ein reserviertes Wort für ein Feld, das nur in manchen Situationen gilt:
 
-```markdown
+```markdown {% process=false %}
 ### dark_lord_approval {% badge="conditional" %}
 Required only when `kind` is `one`.
 ```
@@ -42,7 +42,7 @@ Auf der Seite [Forge a ring](https://www.api-demo.mordoc.dev/api/rings/forge-rin
 
 Jeder andere Text wird genau so zum Badge, wie Sie ihn schreiben:
 
-```markdown
+```markdown {% process=false %}
 ### corruption_level {% badge="Read-only" %}
 A value from 0 to 100 that grows each day a ring is worn.
 ```

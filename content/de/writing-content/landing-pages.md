@@ -39,7 +39,7 @@ Ein Hero ist ein großer Eröffnungsbereich, der in der Regel oben auf einer Lan
 
 Sie können Ihrer Landing-Page mit dem `{% hero %}`-Tag einen Hero-Bereich hinzufügen.
 
-```markdown
+```markdown {% process=false %}
 {% hero
   title="Meine Produkt-Dokumentation"
   titleAccent="leicht gemacht"
@@ -108,7 +108,7 @@ Ein Abschnitt gruppiert Inhalte auf einer Landing-Page, mit einem optionalen Tit
 
 Sie können Ihrer Landing-Page mit dem `{% section %}`-Tag einen Abschnitt hinzufügen.
 
-```markdown
+```markdown {% process=false %}
 {% section title="Wählen Sie, wo Sie beginnen möchten" background="/images/section-bg.png" %}
 Dieser Abschnitt stellt die Hauptwege durch die Dokumentation vor.
 {% /section %}
@@ -143,7 +143,7 @@ Wenn ein Abschnitt ein `background`-Bild hat, wechseln sein Titel und Text autom
 
 Landing-Pages verwenden häufig Karten innerhalb eines Abschnitts, um Leser dorthin zu führen, wo sie als Nächstes hinsollen:
 
-```markdown
+```markdown {% process=false %}
 {% section title="Die Dokumentation erkunden" %}
 {% cardGrid cols="3" %}
 {% card title="Erste Schritte" path="/getting-started/create-project" tag="Hier starten" %}
@@ -161,7 +161,7 @@ Eine Schaltfläche ist eine gestaltete Handlungsaufforderung, die normalerweise 
 
 Sie können mit dem `{% button %}`-Tag eine Schaltfläche hinzufügen.
 
-```markdown
+```markdown {% process=false %}
 {% button path="/getting-started/create-project" %}
 Ein Projekt erstellen
 {% /button %}
@@ -169,7 +169,7 @@ Ein Projekt erstellen
 
 Verwenden Sie `variant="secondary"` für eine dezentere Schaltfläche:
 
-```markdown
+```markdown {% process=false %}
 {% button path="/writing-content/markdown-basics" variant="secondary" %}
 Markdown lernen
 {% /button %}

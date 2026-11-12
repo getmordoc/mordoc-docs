@@ -13,7 +13,7 @@ A Mordoc table starts with `{% table %}` and ends with `{% /table %}`.
 
 Use `*` for each cell. Use `---` to separate the header and rows.
 
-```markdown
+```markdown {% process=false %}
 {% table %}
 * Header 1
 * Header 2
@@ -53,7 +53,7 @@ Each row should have the same number of cells as the header.
 
 You can add more columns by adding more header cells and matching row cells:
 
-```markdown
+```markdown {% process=false %}
 {% table %}
 * Header 1
 * Header 2
@@ -87,7 +87,7 @@ Table cells can contain more than plain text.
 
 For example, a cell can include formatted text, lists, blockquotes, code blocks, callouts, and images.
 
-````markdown
+````markdown {% process=false %}
 {% table %}
 * Content type
 * Example

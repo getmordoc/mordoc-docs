@@ -13,7 +13,7 @@ Verwenden Sie Karten, wenn ein Leser wählen muss, wohin er als nächstes gehen 
 
 Beginnen Sie mit einem `cardGrid`:
 
-```markdown
+```markdown {% process=false %}
 {% cardGrid cols="3" %}
 {% /cardGrid %}
 ```
@@ -38,7 +38,7 @@ Der `cols`-Wert steuert, wie viele Spalten das Raster auf breiten Bildschirmen a
 
 Jede Karte benötigt ein `title`-Attribut:
 
-```markdown
+```markdown {% process=false %}
 {% cardGrid cols="2" %}
 {% card title="Installieren" path="/guides/install" %}
 Installieren Sie das Produkt und prüfen Sie, ob es läuft.
@@ -64,7 +64,7 @@ Mordoc unterstützt einige Kartenarten:
 
 Verwenden Sie eine einfache Karte, wenn der Titel und ein kurzer Satz ausreichen, um dem Leser bei der Entscheidung zu helfen.
 
-```markdown
+```markdown {% process=false %}
 {% cardGrid cols="2" %}
 {% card title="Bauen und Bereitstellen" path="/de/publishing/build-your-site" %}
 Erzeugen Sie eine statische Website und stellen Sie sie in wenigen Minuten auf einer beliebigen Hosting-Plattform bereit.
@@ -90,7 +90,7 @@ Sehen Sie genau, wie Ihre Website aussieht, bevor sie live geht — keine Überr
 
 Verwenden Sie `tag` für kurze Beschriftungen wie `Neu`, `Hier starten` oder `Empfohlen`. Verwenden Sie Tags sparsam. Wenn jede Karte ein Tag hat, verlieren die Tags ihre Wirkung.
 
-```markdown
+```markdown {% process=false %}
 {% cardGrid cols="2" %}
 {% card title="Schnellstart" path="/de/getting-started/create-project" tag="Hier starten" %}
 Beginnen Sie mit dem schnellsten Weg durch die Dokumentation.
@@ -116,7 +116,7 @@ Heben Sie Hinweise, Tipps, Warnungen und wichtige Meldungen auf Mordoc-Seiten he
 
 Fügen Sie `icon` hinzu, um ein kleines Icon neben dem Titel anzuzeigen. `icon` wird in einer kleinen quadratischen Box ohne Zuschneiden dargestellt, daher passt ein quadratisches Icon, idealerweise ein SVG, am besten.
 
-```markdown
+```markdown {% process=false %}
 {% cardGrid cols="3" %}
 {% card title="Erste Schritte" path="/de/getting-started/create-project" icon="/icons/card-icons/getting-started.svg" %}
 Erstellen Sie Ihr erstes Projekt, führen Sie es lokal aus und lernen Sie von Grund auf, wie Mordoc funktioniert.
@@ -148,7 +148,7 @@ Passen Sie Ihre Website mit Navigation, Branding, Themes, Variablen und Mehrspra
 
 Fügen Sie `image` hinzu, um ein größeres Bild über dem Titel anzuzeigen.
 
-```markdown
+```markdown {% process=false %}
 {% cardGrid cols="3" %}
 {% card title="Český Krumlov" image="/images/content-images/cesky-krumlov.jpg" %}
 Eine märchenhafte Stadt in Südböhmen, eingefasst von einer Flussschleife der Moldau.

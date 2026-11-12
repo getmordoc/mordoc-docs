@@ -9,7 +9,7 @@ Ein GIF spielt automatisch ab, ohne Möglichkeit, es zu pausieren, was sowohl ab
 
 ## Einen Clip hinzufügen
 
-```markdown
+```markdown {% process=false %}
 {% clip 
   src="/clips/animated-dinosaur.mp4" 
   title="Animated Dinosaur" 

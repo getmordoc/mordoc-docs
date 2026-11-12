@@ -37,7 +37,7 @@ Use quotes when a value should stay as text but looks like a number, or when it 
 
 After a variable is defined, you can use it in Markdown content:
 
-```markdown
+```markdown {% process=false %}
 Welcome to {% $productName %}.
 ```
 
@@ -67,7 +67,7 @@ supportEmail: support@example.com
 
 Then use it wherever readers need the support address:
 
-```markdown
+```markdown {% process=false %}
 Email {% $supportEmail %} if you need help.
 ```
 
@@ -85,11 +85,11 @@ This renders the literal text `$SUPPORT_PORTAL_URL` as the address, not the valu
 
 For a link or image that needs a variable, use the `link` or `image` tag instead:
 
-```markdown
+```markdown {% process=false %}
 {% link path=$SUPPORT_PORTAL_URL %}Contact support{% /link %}
 ```
 
-```markdown
+```markdown {% process=false %}
 {% image src=$IMAGE_LINK alt="Artwork" /%}
 ```
 

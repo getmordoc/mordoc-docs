@@ -9,7 +9,7 @@ Mordoc unterstützt einen nativen Video-Einbettungsplayer für YouTube, Vimeo un
 
 ## Eine Video-Einbettung hinzufügen
 
-```markdown
+```markdown {% process=false %}
 {% videoEmbed 
   src="https://www.youtube.com/watch?v=AF8d72mA41M" 
   title="Why it was almost impossible to make the blue LED" 
@@ -28,7 +28,7 @@ Mordoc unterstützt einen nativen Video-Einbettungsplayer für YouTube, Vimeo un
 
 Wenn `src` keiner der oben genannten Anbieter ist, versucht Mordoc nicht, eine defekte Einbettung darzustellen. Stattdessen zeigt es eine Link-Karte an, unter Verwendung von `thumbnail`, falls Sie eines gesetzt haben:
 
-```markdown
+```markdown {% process=false %}
 {% videoEmbed src="https://example.com/watch/123" thumbnail="/images/demo-thumb.jpg" title="Demo video" /%}
 ```
 
