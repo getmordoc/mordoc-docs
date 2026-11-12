@@ -1,15 +1,17 @@
 ---
 title: Images
-description: Style the inline figure and zoomable lightbox for images placed in Markdown content.
+description: Style the plain images placed in Markdown content.
 ---
 
-Image wraps a standard Markdown `![]()` image with a caption and a click-to-zoom lightbox. See [Images](/writing-content/images) for the Markdown syntax. This page covers its appearance.
+An image is a standard Markdown `![]()` image. See [Images](/writing-content/images) for the Markdown syntax. This page covers its appearance.
 
 ## Open the override file
 
 ```text
 config/styles/image.css
 ```
+
+Images and [advanced images](/customization/advanced/advanced-images) are styled in this same file, and share `--image-radius` and `--image-shadow`.
 
 ## Tokens
 
@@ -18,35 +20,23 @@ config/styles/image.css
 * What it controls
 ---
 * `--image-radius`
-* Corner radius, shared by the inline figure and the lightbox image.
+* Corner radius of the image.
 ---
-* `--image-caption-color`
-* Caption text color under the inline figure. Defaults to `--color-fg-muted`.
----
-* `--image-overlay-bg`
-* Backdrop behind the full-screen lightbox.
----
-* `--image-close-button-radius`
-* Corner radius of the lightbox's close button.
+* `--image-shadow`
+* Shadow around the image.
 {% /table %}
 
 ## Example image.css
 
-A `config/styles/image.css` that sets every token on this page, for both light and dark mode:
+A `config/styles/image.css` that sets every token on this page:
 
 ```css
 :root {
   --image-radius: 4px;
-  --image-caption-color: #6b7280;
-  --image-overlay-bg: rgba(0, 0, 0, 0.82);
-  --image-close-button-radius: 6px;
-}
-
-.dark {
-  --image-caption-color: #9ca3af;
+  --image-shadow: none;
 }
 ```
 
 ## Next step
 
-- [Style the hero](/customization/advanced/hero).
+- [Style advanced images](/customization/advanced/advanced-images).
