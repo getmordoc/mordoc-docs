@@ -1,0 +1,7 @@
+:root {
+  --hero-bg: #FAFBFA;
+}
+
+.dark {
+  --hero-bg: #24282B;
+}
