@@ -9,7 +9,7 @@
     "build": "mordoc build"
   },
   "dependencies": {
-    "mordoc": "^1.9.1"
+    "mordoc": "^2.0.0"
   },
   "allowScripts": {
     "fsevents": false
