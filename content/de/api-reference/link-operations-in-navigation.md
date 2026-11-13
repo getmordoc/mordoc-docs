@@ -50,7 +50,7 @@ Eine Gruppe kann wie jede andere Gruppe auf eine eigene Seite verlinken. Kombini
 Hier muss `/api/rings` eine echte Seite sein. Schreiben Sie also eine in `content/en/api/rings/index.md`. Ein Pfad unter dem URL-Präfix einer API, der keine Seite ist, lässt den Build scheitern. Siehe [Seitennavigation](/de/configuration/side-navigation).
 
 {% callout type="tip" title="Live ansehen" %}
-Die Gruppe [Rings of Power API](https://www.api-demo.mordoc.dev/api/rings) in der Seitenleiste der Demo hat eine eigene Seite und eine Liste von Operationen.
+Die Gruppe [Rings of Power API](https://api-demo.mordoc.dev/api/rings) in der Seitenleiste der Demo hat eine eigene Seite und eine Liste von Operationen.
 {% /callout %}
 
 ## Leitfadenseiten einbinden
@@ -67,7 +67,7 @@ Seiten wie Authentifizierung, Fehler und Paginierung sind gewöhnliche Markdown-
 Schreiben Sie sie wie jede andere Seite. Siehe [Seiten schreiben](/de/getting-started/write-pages).
 
 {% callout type="tip" title="Live ansehen" %}
-Der Leitfaden [Authentication](https://www.api-demo.mordoc.dev/guides/authentication) der Demo steht in der Seitenleiste neben den API-Gruppen.
+Der Leitfaden [Authentication](https://api-demo.mordoc.dev/guides/authentication) der Demo steht in der Seitenleiste neben den API-Gruppen.
 {% /callout %}
 
 ## Was passiert, wenn eine Operation nicht verlinkt ist?

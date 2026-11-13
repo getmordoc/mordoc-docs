@@ -1,7 +1,7 @@
 {
   "name": "Mordoc",
   "description": "Create powerful documentation websites with Mordoc - an open-source tool that lets you write in markdown and deploy anywhere.",
-  "baseUrl": "https://www.mordoc.dev",
+  "baseUrl": "https://mordoc.dev",
   "defaultLanguage": "en",
   "metadata": {
     "ogImage": "/images/metadata/og-image.png",

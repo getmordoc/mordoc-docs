@@ -17,7 +17,7 @@ Ein Patch in einer `schemas/`-Datei ersetzt die Beschreibung der Spezifikation. 
 {% /callout %}
 
 {% callout type="tip" title="Live ansehen" %}
-Die Seite [List members](https://www.api-demo.mordoc.dev/api/fellowship/list-members) mischt Text aus der Spezifikation mit Enrichment. Die Seite [Forge a ring](https://www.api-demo.mordoc.dev/api/rings/forge-ring) ergänzt einen Callout und Anmerkungen.
+Die Seite [List members](https://api-demo.mordoc.dev/api/fellowship/list-members) mischt Text aus der Spezifikation mit Enrichment. Die Seite [Forge a ring](https://api-demo.mordoc.dev/api/rings/forge-ring) ergänzt einen Callout und Anmerkungen.
 {% /callout %}
 
 ## Der Dateiname ist das Ziel
@@ -134,7 +134,7 @@ Dieselben Dateien dienen allen Sprachen. Eine Datei mit falschem Namen oder ung�
 Mordoc erzeugt außerdem ein cURL-Beispiel für jedes Anfragebeispiel. Diese schreiben Sie nicht selbst.
 
 {% callout type="tip" title="Live ansehen" %}
-Die Seite [Light a beacon](https://www.api-demo.mordoc.dev/api/watch/light-beacon) zeigt Beispiele aus der Spezifikation neben selbst verfassten.
+Die Seite [Light a beacon](https://api-demo.mordoc.dev/api/watch/light-beacon) zeigt Beispiele aus der Spezifikation neben selbst verfassten.
 {% /callout %}
 
 ## Was, wenn ein Ziel falsch ist?

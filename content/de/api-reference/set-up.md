@@ -69,7 +69,7 @@ Jede Operation erhält eine Seite unter `/api/<id>/<operation-slug>`. Der Slug i
 Den Teil `/api/<id>` können Sie mit `routePrefix` ändern. Siehe [API-Registry](/de/configuration/api-registry).
 
 {% callout type="tip" title="Live ansehen" %}
-Die Seite [Retrieve a ring](https://www.api-demo.mordoc.dev/api/rings/get-ring) wurde ohne zusätzlichen Aufwand aus einer Spezifikation erzeugt.
+Die Seite [Retrieve a ring](https://api-demo.mordoc.dev/api/rings/get-ring) wurde ohne zusätzlichen Aufwand aus einer Spezifikation erzeugt.
 {% /callout %}
 
 ## Mehr als eine Spezifikation

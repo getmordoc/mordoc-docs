@@ -1,6 +1,6 @@
 {
   "name": "mordoc-docs",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "description": "Mordoc is a documentation framework, that transforms your content into clean, elegant, and highly usable documentation websites.",
   "private": true,
   "type": "module",

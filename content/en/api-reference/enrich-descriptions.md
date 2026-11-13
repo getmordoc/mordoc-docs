@@ -17,7 +17,7 @@ A patch in a `schemas/` file replaces the spec's description. If the spec is lat
 {% /callout %}
 
 {% callout type="tip" title="See it live" %}
-The [List members](https://www.api-demo.mordoc.dev/api/fellowship/list-members) page mixes spec text with enrichment. The [Forge a ring](https://www.api-demo.mordoc.dev/api/rings/forge-ring) page adds a callout and notes.
+The [List members](https://api-demo.mordoc.dev/api/fellowship/list-members) page mixes spec text with enrichment. The [Forge a ring](https://api-demo.mordoc.dev/api/rings/forge-ring) page adds a callout and notes.
 {% /callout %}
 
 ## The file name is the target
@@ -134,7 +134,7 @@ The same files serve every language. A file with a wrong name or invalid JSON is
 Mordoc also builds a cURL sample for each request example. You do not write these.
 
 {% callout type="tip" title="See it live" %}
-The [Light a beacon](https://www.api-demo.mordoc.dev/api/watch/light-beacon) page shows spec examples next to authored ones.
+The [Light a beacon](https://api-demo.mordoc.dev/api/watch/light-beacon) page shows spec examples next to authored ones.
 {% /callout %}
 
 ## What if a target is wrong?

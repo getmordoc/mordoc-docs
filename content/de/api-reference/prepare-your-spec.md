@@ -52,7 +52,7 @@ Nichts davon ist erforderlich, aber jeder Punkt macht die erzeugte Seite besser:
 * **`deprecated: true`** für Operationen, die auslaufen. Die Seite kennzeichnet sie als veraltet.
 
 {% callout type="tip" title="Live ansehen" %}
-Die Seite [Retrieve a member](https://www.api-demo.mordoc.dev/api/fellowship/get-member) verwendet ausschließlich die Spezifikation, ganz ohne Enrichment.
+Die Seite [Retrieve a member](https://api-demo.mordoc.dev/api/fellowship/get-member) verwendet ausschließlich die Spezifikation, ganz ohne Enrichment.
 {% /callout %}
 
 ## Webhooks
@@ -76,7 +76,7 @@ Ein Webhook funktioniert wie jede andere Operation:
 Die Seite zeigt den Namen des Webhooks dort, wo eine normale Operation ihre URL zeigt, und sie hat kein cURL-Beispiel.
 
 {% callout type="tip" title="Live ansehen" %}
-Öffnen Sie die Webhook-Seite [Beacon lit](https://www.api-demo.mordoc.dev/api/watch/beacon-lit-event).
+Öffnen Sie die Webhook-Seite [Beacon lit](https://api-demo.mordoc.dev/api/watch/beacon-lit-event).
 {% /callout %}
 
 ## Nächster Schritt
