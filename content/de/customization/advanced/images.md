@@ -1,15 +1,17 @@
 ---
 title: Bilder
-description: Gestalten Sie die Inline-Abbildung und die zoombare Lightbox für Bilder, die in Markdown-Inhalten platziert werden.
+description: Gestalten Sie einfache Bilder, die in Markdown-Inhalten platziert werden.
 ---
 
-Image umschließt ein Standard-Markdown-`![]()`-Bild mit einer Bildunterschrift und einer Klick-zum-Zoomen-Lightbox. Siehe [Bilder](/de/writing-content/images) für die Markdown-Syntax. Diese Seite behandelt sein Erscheinungsbild.
+Ein Bild ist ein Standard-Markdown-`![]()`-Bild. Siehe [Bilder](/de/writing-content/images) für die Markdown-Syntax. Diese Seite behandelt sein Erscheinungsbild.
 
 ## Die Override-Datei öffnen
 
 ```text
 config/styles/image.css
 ```
+
+Bilder und [erweiterte Bilder](/de/customization/advanced/advanced-images) werden in derselben Datei gestaltet und teilen sich `--image-radius` und `--image-shadow`.
 
 ## Tokens
 
@@ -18,35 +20,23 @@ config/styles/image.css
 * Was es steuert
 ---
 * `--image-radius`
-* Eckenradius, gemeinsam für die Inline-Abbildung und das Lightbox-Bild.
+* Eckenradius des Bildes.
 ---
-* `--image-caption-color`
-* Textfarbe der Bildunterschrift unter der Inline-Abbildung. Standardmäßig `--color-fg-muted`.
----
-* `--image-overlay-bg`
-* Hintergrund hinter der Vollbild-Lightbox.
----
-* `--image-close-button-radius`
-* Eckenradius des Schließen-Buttons der Lightbox.
+* `--image-shadow`
+* Schatten um das Bild.
 {% /table %}
 
 ## Beispiel image.css
 
-Eine `config/styles/image.css`, die jeden Token auf dieser Seite festlegt, für Hell- und Dunkelmodus:
+Eine `config/styles/image.css`, die jeden Token auf dieser Seite festlegt:
 
 ```css
 :root {
   --image-radius: 4px;
-  --image-caption-color: #6b7280;
-  --image-overlay-bg: rgba(0, 0, 0, 0.82);
-  --image-close-button-radius: 6px;
-}
-
-.dark {
-  --image-caption-color: #9ca3af;
+  --image-shadow: none;
 }
 ```
 
 ## Nächster Schritt
 
-- [Den Hero gestalten](/de/customization/advanced/hero).
+- [Erweiterte Bilder gestalten](/de/customization/advanced/advanced-images).

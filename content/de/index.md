@@ -7,7 +7,7 @@ layout: landing
   title="Ein Docs Framework,"
   titleAccent="sie alle zu binden."
   description="Mordoc verwandelt Ihr Markdown in saubere, elegante Dokumentationswebsites. Inhalte schreiben, einmal konfigurieren und überall veröffentlichen."
-  background="/images/hero-images/mordor.png"
+  background="/images/hero-images/mordoc-hero.png"
 %}
 {% button path="/de/introduction" %}Jetzt starten{% /button %}
 {% /hero %}
