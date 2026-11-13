@@ -69,7 +69,7 @@ Each operation gets a page at `/api/<id>/<operation-slug>`. The slug is the `ope
 You can change the `/api/<id>` part with `routePrefix`. See [API Registry](/configuration/api-registry).
 
 {% callout type="tip" title="See it live" %}
-The [Retrieve a ring](https://www.api-demo.mordoc.dev/api/rings/get-ring) page was generated from a spec with no extra work.
+The [Retrieve a ring](https://api-demo.mordoc.dev/api/rings/get-ring) page was generated from a spec with no extra work.
 {% /callout %}
 
 ## More than one spec

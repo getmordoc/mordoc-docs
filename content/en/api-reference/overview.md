@@ -13,7 +13,7 @@ Each generated page shows:
 * Deep links to any section or field, and search results that open the matching field.
 
 {% callout type="tip" title="See it live" %}
-Everything on this page is running in the [Mordoc API demo](https://www.api-demo.mordoc.dev/). Open a page there while you read.
+Everything on this page is running in the [Mordoc API demo](https://api-demo.mordoc.dev/). Open a page there while you read.
 {% /callout %}
 
 ## The spec is the source of truth
@@ -54,7 +54,7 @@ api/examples/<id>/<operationId>/         optional extra example payloads
 
 The `<id>` is the name you give each spec in `config/api.yaml`. See [Set Up an API Reference](/api-reference/set-up).
 
-The [demo's own build notes](https://www.api-demo.mordoc.dev/guides/how-this-is-built) show this layout in a real project.
+The [demo's own build notes](https://api-demo.mordoc.dev/guides/how-this-is-built) show this layout in a real project.
 
 ## What to read next
 

@@ -52,7 +52,7 @@ None of these are required, but each one makes the generated page better:
 * **`deprecated: true`** on operations that are going away. The page marks them as deprecated.
 
 {% callout type="tip" title="See it live" %}
-The [Retrieve a member](https://www.api-demo.mordoc.dev/api/fellowship/get-member) page uses only the spec, with no enrichment at all.
+The [Retrieve a member](https://api-demo.mordoc.dev/api/fellowship/get-member) page uses only the spec, with no enrichment at all.
 {% /callout %}
 
 ## Webhooks
@@ -76,7 +76,7 @@ A webhook works like any other operation:
 The page shows the webhook's name where a normal operation shows its URL, and it has no cURL sample.
 
 {% callout type="tip" title="See it live" %}
-Open the [Beacon lit](https://www.api-demo.mordoc.dev/api/watch/beacon-lit-event) webhook page.
+Open the [Beacon lit](https://api-demo.mordoc.dev/api/watch/beacon-lit-event) webhook page.
 {% /callout %}
 
 ## Next step

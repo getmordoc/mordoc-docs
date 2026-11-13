@@ -13,7 +13,7 @@ Jede erzeugte Seite zeigt:
 * Deep Links zu jedem Abschnitt und jedem Feld sowie Suchergebnisse, die das passende Feld öffnen.
 
 {% callout type="tip" title="Live ansehen" %}
-Alles auf dieser Seite läuft in der [Mordoc-API-Demo](https://www.api-demo.mordoc.dev/). Öffnen Sie dort beim Lesen eine Seite.
+Alles auf dieser Seite läuft in der [Mordoc-API-Demo](https://api-demo.mordoc.dev/). Öffnen Sie dort beim Lesen eine Seite.
 {% /callout %}
 
 ## Die Spezifikation ist die maßgebliche Quelle
@@ -54,7 +54,7 @@ api/examples/<id>/<operationId>/         optional extra example payloads
 
 Die `<id>` ist der Name, den Sie jeder Spezifikation in `config/api.yaml` geben. Siehe [Eine API-Referenz einrichten](/de/api-reference/set-up).
 
-Die [Build-Hinweise der Demo](https://www.api-demo.mordoc.dev/guides/how-this-is-built) zeigen dieses Layout in einem echten Projekt.
+Die [Build-Hinweise der Demo](https://api-demo.mordoc.dev/guides/how-this-is-built) zeigen dieses Layout in einem echten Projekt.
 
 ## Was Sie als Nächstes lesen sollten
 

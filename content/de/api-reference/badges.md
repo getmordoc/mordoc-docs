@@ -35,7 +35,7 @@ Required only when `kind` is `one`.
 Es wird als bernsteinfarbenes Label angezeigt. Ein bloßes Label sagt den Lesern nicht, wie die Bedingung lautet, erklären Sie sie deshalb immer in der Beschreibung des Feldes. Andernfalls warnt Sie der Build.
 
 {% callout type="tip" title="Live ansehen" %}
-Auf der Seite [Forge a ring](https://www.api-demo.mordoc.dev/api/rings/forge-ring) ist das Feld `dark_lord_approval` bedingt.
+Auf der Seite [Forge a ring](https://api-demo.mordoc.dev/api/rings/forge-ring) ist das Feld `dark_lord_approval` bedingt.
 {% /callout %}
 
 ## Eigene Badges
@@ -50,7 +50,7 @@ A value from 0 to 100 that grows each day a ring is worn.
 Alle diese Badges teilen sich einen Stil. Wählen Sie kurze Wörter, etwa `Read-only` oder `Beta`.
 
 {% callout type="tip" title="Live ansehen" %}
-Die Seite [Retrieve a ring](https://www.api-demo.mordoc.dev/api/rings/get-ring) zeigt die Badges `Read-only` und `Beta`.
+Die Seite [Retrieve a ring](https://api-demo.mordoc.dev/api/rings/get-ring) zeigt die Badges `Read-only` und `Beta`.
 {% /callout %}
 
 ## Deprecated ist separat

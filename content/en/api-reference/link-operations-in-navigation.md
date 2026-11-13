@@ -50,7 +50,7 @@ A group can link to its own page, as with any other group. Combine `path` with `
 Here `/api/rings` must be a real page, so write one in `content/en/api/rings/index.md`. A path under an API's URL prefix that is not a page fails the build. See [Side Navigation](/configuration/side-navigation).
 
 {% callout type="tip" title="See it live" %}
-The [Rings of Power API](https://www.api-demo.mordoc.dev/api/rings) group in the demo sidebar has its own page and a list of operations.
+The [Rings of Power API](https://api-demo.mordoc.dev/api/rings) group in the demo sidebar has its own page and a list of operations.
 {% /callout %}
 
 ## Mix in guide pages
@@ -67,7 +67,7 @@ Pages such as authentication, errors, and pagination are ordinary Markdown pages
 Write them like any other page. See [Write Pages](/getting-started/write-pages).
 
 {% callout type="tip" title="See it live" %}
-The demo's [Authentication](https://www.api-demo.mordoc.dev/guides/authentication) guide sits in the sidebar beside the API groups.
+The demo's [Authentication](https://api-demo.mordoc.dev/guides/authentication) guide sits in the sidebar beside the API groups.
 {% /callout %}
 
 ## What if an operation is not linked?

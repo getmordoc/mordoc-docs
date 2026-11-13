@@ -35,7 +35,7 @@ Required only when `kind` is `one`.
 It shows as an amber label. A bare label does not tell readers what the condition is, so always explain it in the field's description. If you do not, the build warns you.
 
 {% callout type="tip" title="See it live" %}
-On [Forge a ring](https://www.api-demo.mordoc.dev/api/rings/forge-ring), the `dark_lord_approval` field is conditional.
+On [Forge a ring](https://api-demo.mordoc.dev/api/rings/forge-ring), the `dark_lord_approval` field is conditional.
 {% /callout %}
 
 ## Your own badges
@@ -50,7 +50,7 @@ A value from 0 to 100 that grows each day a ring is worn.
 All of these badges share one style. Pick short words, such as `Read-only` or `Beta`.
 
 {% callout type="tip" title="See it live" %}
-The [Retrieve a ring](https://www.api-demo.mordoc.dev/api/rings/get-ring) page shows `Read-only` and `Beta` badges.
+The [Retrieve a ring](https://api-demo.mordoc.dev/api/rings/get-ring) page shows `Read-only` and `Beta` badges.
 {% /callout %}
 
 ## Deprecated is separate
