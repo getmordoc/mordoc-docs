@@ -8,12 +8,20 @@ An advanced image shows a caption below the image. Readers can click the image, 
 ## Add an advanced image
 
 ```markdown {% process=false %}
-{% advancedImage src="/images/content-images/artwork.png" alt="Artwork" caption="The artwork, opened larger on click." /%}
+{% advancedImage 
+  src="/images/content-images/artwork.png" 
+  alt="Artwork" 
+  caption="The artwork, opened larger on click." 
+/%}
 ```
 
 **Here is how it renders**
 
-{% advancedImage src="/images/content-images/artwork.png" alt="Artwork" caption="The artwork, opened larger on click." /%}
+{% advancedImage 
+  src="/images/content-images/artwork.png" 
+  alt="Artwork" 
+  caption="The artwork, opened larger on click." 
+/%}
 
 An advanced image stands on its own line. It can't be placed inside a sentence or a link.
 
