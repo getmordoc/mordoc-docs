@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "mordoc": "^1.9.1"
+  },
+  "allowScripts": {
+    "fsevents": false
   }
 }
