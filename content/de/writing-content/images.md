@@ -19,6 +19,34 @@ Der Text in eckigen Klammern ist der `alt`-Text des Bildes. Halten Sie ihn besch
 
 Die Seite [Bilder und Dateien](/de/getting-started/images-and-files) führt Sie Schritt für Schritt durch das Hinzufügen eines Bildes.
 
+## Der image-Tag
+
+Sie können ein Bild auch als Tag schreiben. Er stellt dasselbe einfache Bild dar, und sein `src` kann eine [Variable](/de/configuration/variables) sein.
+
+```markdown {% process=false %}
+{% image src="/images/content-images/artwork.png" alt="Grafik" title="Wird beim Darüberfahren angezeigt" /%}
+```
+
+**So sieht das aus**
+
+{% image src="/images/content-images/artwork.png" alt="Grafik" title="Wird beim Darüberfahren angezeigt" /%}
+
+{% table %}
+* Attribut
+* Was es bewirkt
+---
+* `src`
+* Der Pfad zum Bild, beginnend mit `/`. Erforderlich.
+---
+* `alt`
+* Der Text, den Bildschirmlesegeräte vorlesen und der angezeigt wird, falls das Bild nicht geladen werden kann.
+---
+* `title`
+* Der Text, der angezeigt wird, wenn Leser mit der Maus über das Bild fahren.
+{% /table %}
+
+Für eine Bildunterschrift unter dem Bild und Vergrößern per Klick verwenden Sie ein [erweitertes Bild](/de/writing-content/advanced-images).
+
 ## Icons
 
 Icons funktionieren genauso wie jedes andere Bild: Legen Sie die Datei in `public/` ab und referenzieren Sie dann ihren Pfad.
@@ -37,4 +65,4 @@ Manchmal sollte die Quelle eines Bildes aus einem wiederverwendbaren Wert stamme
 
 ## Nächster Schritt
 
-- [Clips hinzufügen](/de/writing-content/clip).
+- [Erweiterte Bilder hinzufügen](/de/writing-content/advanced-images).

@@ -19,6 +19,34 @@ The text in brackets is the image's `alt` text. Keep it descriptive, since it is
 
 The [Images and Files](/getting-started/images-and-files) page walks through adding an image step by step.
 
+## The image tag
+
+You can also write an image as a tag. It renders the same plain image, and its `src` can be a [variable](/configuration/variables).
+
+```markdown {% process=false %}
+{% image src="/images/content-images/artwork.png" alt="Artwork" title="Shown on hover" /%}
+```
+
+**Here is how it renders**
+
+{% image src="/images/content-images/artwork.png" alt="Artwork" title="Shown on hover" /%}
+
+{% table %}
+* Attribute
+* What it does
+---
+* `src`
+* The path to the image, starting with `/`. Required.
+---
+* `alt`
+* The text read by screen readers and shown if the image fails to load.
+---
+* `title`
+* The text shown when a reader hovers over the image.
+{% /table %}
+
+For a caption below the image and click to enlarge, use an [advanced image](/writing-content/advanced-images).
+
 ## Icons
 
 Icons work the same way as any other image: place the file in `public/`, then reference its path.
@@ -37,4 +65,4 @@ Sometimes an image's source should come from a reusable value instead of being w
 
 ## Next step
 
-- [Add clips](/writing-content/clip).
+- [Add advanced images](/writing-content/advanced-images).

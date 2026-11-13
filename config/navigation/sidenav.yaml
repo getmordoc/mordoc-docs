@@ -38,6 +38,8 @@
       path: /writing-content/links
     - label: Images
       path: /writing-content/images
+    - label: Advanced Images
+      path: /writing-content/advanced-images
     - label: Clips
       path: /writing-content/clip
     - label: Video Embeds
@@ -156,6 +158,8 @@
           path: /customization/advanced/diagrams
         - label: Images
           path: /customization/advanced/images
+        - label: Advanced Images
+          path: /customization/advanced/advanced-images
         - label: Hero
           path: /customization/advanced/hero
         - label: Sections
