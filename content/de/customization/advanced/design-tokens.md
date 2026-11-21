@@ -31,7 +31,7 @@ Fügen Sie nur die Tokens hinzu, die Sie ändern möchten, innerhalb von `:root`
 * Der Seitenhintergrund, hinter allem.
 ---
 * `--color-surface`
-* Ein leicht abweichender Hintergrund für erhöhte oder vertiefte Flächen: Code-Block-Kopfzeilen, die Eingabezeile des Suchmodals, Tabellenüberschriften in Ihrem geschriebenen Inhalt und ähnliche Oberflächenelemente.
+* Ein leicht abweichender Hintergrund für erhöhte oder vertiefte Flächen: die Eingabezeile des Suchmodals, Tabellenüberschriften in Ihrem geschriebenen Inhalt und ähnliche Oberflächenelemente.
 ---
 * `--color-border`
 * Feine Trennlinien, die auf der gesamten Website verwendet werden: Flächenränder, Trennlinien, die Linie unter dem Header.

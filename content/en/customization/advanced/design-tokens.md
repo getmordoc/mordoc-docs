@@ -31,7 +31,7 @@ Add only the tokens you want to change, inside `:root`:
 * The page background, behind everything.
 ---
 * `--color-surface`
-* A subtly different background used for raised or recessed panels: code block headers, the search modal's input row, table headers in your written content, and similar interface elements.
+* A subtly different background used for raised or recessed panels: the search modal's input row, table headers in your written content, and similar interface elements.
 ---
 * `--color-border`
 * Hairline borders used throughout the site: panel edges, dividers, the line under the header.

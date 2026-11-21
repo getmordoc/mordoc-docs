@@ -35,7 +35,7 @@ config/styles/app.css
 * What it controls
 ---
 * `--header-area-bg`
-* Background of the Header Area box.
+* Background of the Header Area box. Light grey by default: `#fafafa`, and `#272727` in dark mode.
 ---
 * `--sidenav-area-bg`
 * Background of the Sidenav Area box.

@@ -1,7 +1,9 @@
+/* Hero background: a light grey with a hint of warmth for the illustration's brown lines. */
 :root {
-  --hero-bg: #FAFBFA;
+  --hero-bg: #f5f4f2;
 }
 
+/* Overrides in :root also apply in dark mode, so set Mordoc's dark default again. */
 .dark {
-  --hero-bg: #24282B;
+  --hero-bg: #1e1e1e;
 }

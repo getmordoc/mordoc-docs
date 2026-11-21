@@ -18,7 +18,7 @@ config/styles/hero.css
 * What it controls
 ---
 * `--hero-bg`
-* Solid background color, used when a hero has no `background` image. Transparent by default, so the page background shows through.
+* Solid background color, used when a hero has no `background` image. Defaults to `#f5f5f5`, and `#1e1e1e` in dark mode: a little darker than the header.
 ---
 * `--hero-title-color`
 * Title text color. Defaults to `--color-fg`.
@@ -27,7 +27,7 @@ config/styles/hero.css
 * Color of the title's accent line (`titleAccent` in Markdown).
 ---
 * `--hero-desc-color`
-* Description text color. Defaults to `--color-fg-muted`.
+* Description text color. Defaults to `#616161` in light mode, so it stays readable on the hero background, and `--color-fg-muted` in dark mode.
 ---
 * `--hero-image-radius`
 * Corner radius of a hero's foreground image, if it has one.

@@ -18,7 +18,7 @@ config/styles/hero.css
 * Was es steuert
 ---
 * `--hero-bg`
-* Einfarbiger Hintergrund, verwendet, wenn ein Hero kein `background`-Bild hat. Standardmäßig transparent, sodass der Seitenhintergrund durchscheint.
+* Einfarbiger Hintergrund, verwendet, wenn ein Hero kein `background`-Bild hat. Standardmäßig `#f5f5f5`, im Dunkelmodus `#1e1e1e`: etwas dunkler als der Header.
 ---
 * `--hero-title-color`
 * Titel-Textfarbe. Standardmäßig `--color-fg`.
@@ -27,7 +27,7 @@ config/styles/hero.css
 * Farbe der Akzentzeile des Titels (`titleAccent` in Markdown).
 ---
 * `--hero-desc-color`
-* Beschreibungs-Textfarbe. Standardmäßig `--color-fg-muted`.
+* Beschreibungs-Textfarbe. Standardmäßig `#616161` im Hellmodus, damit sie auf dem Hero-Hintergrund gut lesbar bleibt, und `--color-fg-muted` im Dunkelmodus.
 ---
 * `--hero-image-radius`
 * Eckenradius des Vordergrundbilds eines Heros, falls vorhanden.

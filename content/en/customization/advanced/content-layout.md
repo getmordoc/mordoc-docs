@@ -56,8 +56,8 @@ config/styles/content.css
 }
 ```
 
-{% callout type="note" title="404 and loading skeleton have nothing of their own yet" %}
-The not-found page and the shimmering loading placeholder shown while a page loads both reuse `--article-max-width` above and the global color tokens from [Design Tokens](/customization/advanced/design-tokens). They don't have their own component-specific tokens to override.
+{% callout type="note" title="404 page and loading placeholder" %}
+The not-found page reuses `--article-max-width` above and the global color tokens from [Design Tokens](/customization/advanced/design-tokens); it has no tokens of its own. The shimmering placeholder shown while a page loads also reuses `--article-max-width`, and has two color tokens of its own in `config/styles/skeleton.css`: `--skeleton-bg` for the grey bars and `--skeleton-highlight` for the lighter band that moves across them.
 {% /callout %}
 
 ## Example content.css

@@ -56,8 +56,8 @@ config/styles/content.css
 }
 ```
 
-{% callout type="note" title="404 und Lade-Skeleton haben noch keine eigenen" %}
-Die Nicht-gefunden-Seite und der schimmernde Lade-Platzhalter, der beim Laden einer Seite angezeigt wird, verwenden beide `--article-max-width` von oben sowie die globalen Farb-Tokens aus [Design Tokens](/de/customization/advanced/design-tokens) wieder. Sie haben keine eigenen komponentenspezifischen Tokens zum Überschreiben.
+{% callout type="note" title="404-Seite und Lade-Platzhalter" %}
+Die Nicht-gefunden-Seite verwendet `--article-max-width` von oben sowie die globalen Farb-Tokens aus [Design Tokens](/de/customization/advanced/design-tokens) wieder; sie hat keine eigenen Tokens. Der schimmernde Platzhalter, der beim Laden einer Seite angezeigt wird, verwendet ebenfalls `--article-max-width` und hat zwei eigene Farb-Tokens in `config/styles/skeleton.css`: `--skeleton-bg` für die grauen Balken und `--skeleton-highlight` für das hellere Band, das darüber läuft.
 {% /callout %}
 
 ## Beispiel content.css

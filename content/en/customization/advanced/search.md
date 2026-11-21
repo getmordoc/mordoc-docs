@@ -136,11 +136,11 @@ A `config/styles/search-bar.css` that sets every token on this page, for both li
   --search-bar-gap: 8px;
   --search-bar-font-size: 14px;
   --search-bar-icon-size: 16px;
-  --search-bar-bg: rgba(245, 245, 245, 0.5);
+  --search-bar-bg: #ffffff;
   --search-bar-bg-hover: #f5f5f5;
-  --search-bar-border: #e5e5e5;
+  --search-bar-border: #e0e0e0;
   --search-bar-border-hover: color-mix(in oklch, #0d9488 30%, transparent);
-  --search-bar-fg: #666666;
+  --search-bar-fg: #616161;
   --search-bar-kbd-height: 20px;
   --search-bar-kbd-padding: 6px;
   --search-bar-kbd-font-size: 10px;
@@ -149,11 +149,11 @@ A `config/styles/search-bar.css` that sets every token on this page, for both li
 }
 
 .dark {
-  --search-bar-bg: rgba(36, 36, 36, 0.5);
+  --search-bar-bg: #121212;
   --search-bar-bg-hover: #242424;
-  --search-bar-border: #2e2e2e;
+  --search-bar-border: #383838;
   --search-bar-fg: #9e9e9e;
-  --search-bar-kbd-bg: #1a1a1a;
+  --search-bar-kbd-bg: #1e1e1e;
 }
 ```
 

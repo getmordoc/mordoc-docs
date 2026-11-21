@@ -35,7 +35,7 @@ config/styles/app.css
 * Was es steuert
 ---
 * `--header-area-bg`
-* Hintergrund der Header-Area-Box.
+* Hintergrund der Header-Area-Box. Standardmäßig hellgrau: `#fafafa`, im Dunkelmodus `#272727`.
 ---
 * `--sidenav-area-bg`
 * Hintergrund der Sidenav-Area-Box.
